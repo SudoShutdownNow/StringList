@@ -112,7 +112,7 @@ int seek(WordNode* paper, WordNode* target)
 				WordNode* oper = label;
 				for (oper = label; oper != piter; oper = oper->next)//oper在paper上从label位置开始，直到当前位置结束
 				{
-					cout << oper->word << endl;
+					//cout << oper->word << endl;
 					oper->labeled = true;//将标记改为存在
 				}
 				oper->labeled = true;//同理把最后一个处理掉
