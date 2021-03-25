@@ -118,7 +118,7 @@ int seek(WordNode* paper, WordNode* target)
 				oper->labeled = true;//同理把最后一个处理掉
 
 				titer = target;//给titer归位
-				//return OK;
+				break;//然后结束这一遍匹配，
 			}
 
 			if (piter->next != NULL)
